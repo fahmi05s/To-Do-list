@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { font-family: 'Poppins', sans-serif;
+    background:
+    radial-gradient(circle at 10% 20%, #ff9a9e 0%, transparent 25%),
+    radial-gradient(circle at 90% 30%, #a18cd1 0%, transparent 25%),
+    radial-gradient(circle at 30% 90%, #84fab0 0%, transparent 25%),
+    radial-gradient(circle at 80% 90%, #8fd3f4 0%, transparent 25%), 
+    #333;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.header {
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+    top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.my {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.my h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#bt {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#bt:hover {
+    background-color: #555;
+}
+
+#list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#list input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#list span { 
+    flex: 1; font-size: 16px;
+} 
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+} 
+
+.delete-button {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+} 
+
+.delete-button:hover {
+    background-color: #555;
+} 
